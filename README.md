@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# TruFinAuctions Tech Test
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a simple ERC20 Auction contract with UUPS upgradeablity. It comes with a contract and a test for that contract.
 
-Try running some of the following tasks:
+Try running the following command:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+npm install && npx hardhat test
 ```
